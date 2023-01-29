@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from brain_games import cli
+from brain_games.logic import questions
 
 
 def welcom():
@@ -8,7 +8,7 @@ def welcom():
 
 def main():
     welcom()
-    cli.welcome_user()
+    questions()
 
 
 if __name__ == '__main__':
