@@ -3,3 +3,7 @@
 
 # Maintainability
 <a href="https://codeclimate.com/github/Kem0111/python-project-49/maintainability"><img src="https://api.codeclimate.com/v1/badges/3ae03736d19895ff21d4/maintainability" /></a>
+
+
+# asciinema rec to install scripts 
+https://asciinema.org/a/Hl0YRLfIRSBDtAidAbtR0OWXI
