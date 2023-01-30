@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
-from brain_games.logic import questions
-
-
-def welcom():
-    print('Welcome to the Brain Games!')
+from brain_games.logic import questions, question
 
 
 def main():
-    welcom()
-    questions()
+    questions(question)
 
 
 if __name__ == '__main__':

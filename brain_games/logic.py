@@ -4,6 +4,7 @@ from operator import add, sub, mul
 
 
 def question():
+    print('Answer "yes" if the number is even, otherwise answer "no"')
     random_number = randint(1, 100)
     print(f'Question: {random_number}')
     answer = prompt.string('Your answer: ')
@@ -19,13 +20,13 @@ def question():
         return False
 
 
-def questions():
+def questions(funk):
+    print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
-    print(f'''Hello, {name}!
-Answer "yes" if the number is even, otherwise answer "no"''')
+    print(f'Hello, {name}!')
     a = 0
     for i in range(3):
-        if question() is False:
+        if funk() is False:
             a += 1
             print(f"Let's try again, {name}")
             break
@@ -34,8 +35,9 @@ Answer "yes" if the number is even, otherwise answer "no"''')
 
 
 def question_for_calc():
+    print('What is the result of the expression?')
     a = randint(1, 100)
-    b = randint(1,100)
+    b = randint(1, 100)
     get_operator = {'+': add, '-': sub, '*': mul}.get
     operator = choice(('+', '-', '*'))
     result = get_operator(operator)
@@ -43,7 +45,7 @@ def question_for_calc():
     string = ''
     integer = result(a, b)
     for i in expression:
-        string += str(i) + ' '   
+        string += str(i) + ' '
     print(f'Question: {string}')
     answer = prompt.string('Your answer: ')
     if str(answer) == str(integer):
@@ -52,8 +54,3 @@ def question_for_calc():
     else:
         print(f"'{answer}' is wrong answer ;(. Correct answer was '{integer}'")
         return False
-
-
-
-
-
