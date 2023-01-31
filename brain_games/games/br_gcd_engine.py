@@ -10,7 +10,7 @@ def br_gcd():
     max_common_divider = math.gcd(first_number, second_number)
     print(f'Question: {first_number} {second_number}')
     answer = prompt.string('Your answer: ')
-    if str(answer) == str(max_common_divider):
+    if answer == str(max_common_divider):
         print('Correct!')
         return True
     else:

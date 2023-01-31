@@ -17,7 +17,7 @@ def br_calc():
         string += str(i) + ' '
     print(f'Question: {string}')
     answer = prompt.string('Your answer: ')
-    if str(answer) == str(integer):
+    if answer == str(integer):
         print('Correct!')
         return True
     else:
