@@ -33,5 +33,3 @@ package-reinstall:
 
 lint:
 	poetry run flake8 brain_games
-
-

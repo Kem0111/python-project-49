@@ -13,3 +13,7 @@ https://asciinema.org/a/yDPvZUZBlavtpwCmANEq7HX1F
 
 # asciinema rec to install scripts and use brain-gcd
 https://asciinema.org/a/dRb4HG1xIWRxFjwOnYxrOA0gX
+
+
+# asciinema rec to install scripts and use brain-progression
+https://asciinema.org/a/tISHctiutVh54aYGyKS5dUXXC
