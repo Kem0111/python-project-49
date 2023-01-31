@@ -10,3 +10,6 @@ https://asciinema.org/a/Hl0YRLfIRSBDtAidAbtR0OWXI
 
 # asciinema rec to install scripts and use brain-calc
 https://asciinema.org/a/yDPvZUZBlavtpwCmANEq7HX1F
+
+# asciinema rec to install scripts and use brain-gcd
+https://asciinema.org/a/dRb4HG1xIWRxFjwOnYxrOA0gX
