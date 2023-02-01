@@ -4,7 +4,7 @@ from random import randint
 
 def is_br_prime():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    number = 3
+    number = randint(1, 100)
     num = 0
     if number == 1:
         num += 1
