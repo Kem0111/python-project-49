@@ -4,15 +4,14 @@ from random import randint
 
 def is_br_prime():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
-    number = randint(1, 100)
+    number = 3
     num = 0
     if number == 1:
         num += 1
-    else:
-        for i in range(2, number):
-            if number % i == 0 and i < number:
-                num += 1
-                break
+    for i in range(2, number):
+        if number % i == 0 and i < number:
+            num += 1
+            break
     print(f'Question: {number}')
     answer = prompt.string('Your answer: ')
     if num == 0 and answer == 'yes' or \
