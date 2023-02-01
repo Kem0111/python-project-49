@@ -7,8 +7,10 @@ def br_even():
     random_number = randint(1, 100)
     print(f'Question: {random_number}')
     answer = prompt.string('Your answer: ')
-    if random_number % 2 == 0 and answer == 'yes' or \
-       random_number % 2 != 0 and answer == 'no':
+    if random_number % 2 == 0 and answer == 'yes':
+        print('Correct!')
+        return True
+    elif random_number % 2 != 0 and answer == 'no':
         print('Correct!')
         return True
     elif random_number % 2 == 0 and answer != 'yes':
