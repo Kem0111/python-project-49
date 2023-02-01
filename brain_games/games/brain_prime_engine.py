@@ -14,8 +14,10 @@ def is_br_prime():
             break
     print(f'Question: {number}')
     answer = prompt.string('Your answer: ')
-    if num == 0 and answer == 'yes' or \
-       num != 0 and answer == 'no':
+    if num == 0 and answer == 'yes':
+        print('Correct!')
+        return True
+    elif num != 0 and answer == 'no':
         print('Correct!')
         return True
     elif num == 0 and answer != 'yes':
