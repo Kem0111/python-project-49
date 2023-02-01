@@ -21,5 +21,5 @@ def br_calc():
         print('Correct!')
         return True
     else:
-        print(f"'{answer}' is wrong answer ;(. Correct answer was '{integer}'")
+        print(f"'{answer}' is wrong answer ;(. Correct answer was '{integer}'.")
         return False

@@ -20,8 +20,8 @@ def is_br_prime():
         print('Correct!')
         return True
     elif num == 0 and answer != 'yes':
-        print(f"'{answer}' is wrong answer ;(. Correct answer was 'yes'")
+        print(f"'{answer}' is wrong answer ;(. Correct answer was 'yes'.")
         return False
     else:
-        print(f"'{answer}' is wrong answer ;(. Correct answer was 'no'")
+        print(f"'{answer}' is wrong answer ;(. Correct answer was 'no'.")
         return False
