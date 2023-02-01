@@ -12,4 +12,4 @@ def questions(funk):
             print(f"Let's try again, {name}")
             break
     if a == 0:
-        print(f'Congratulations, {name}')
+        print(f'Congratulations, {name}!')
