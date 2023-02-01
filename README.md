@@ -17,3 +17,6 @@ https://asciinema.org/a/dRb4HG1xIWRxFjwOnYxrOA0gX
 
 # asciinema rec to install scripts and use brain-progression
 https://asciinema.org/a/tISHctiutVh54aYGyKS5dUXXC
+
+# asciinema rec to install scripts and use brain-prime
+https://asciinema.org/a/n6jKgWCfVMymqtf7TEh0agSXz
