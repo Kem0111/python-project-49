@@ -14,7 +14,7 @@ Brine-prime - prime numbers test.
 
 To install brain-games enter the command:
 
-pyhon3 -m pip install --user git+https://github.com/Kem0111/python-project-49.git
+python3 -m pip install --user git+https://github.com/Kem0111/python-project-49.git
 
  
 # rec to install scripts and use brain-even
