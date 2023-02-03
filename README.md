@@ -21,13 +21,13 @@ pyhon3 -m pip install --user git+https://github.com/Kem0111/python-project-49.gi
 <a href="https://asciinema.org/a/555517" target="_blank"><img src="https://asciinema.org/a/555517.svg" /></a>
 
 # rec to install scripts and use brain-calc
-<script id="asciicast-555768" src="https://asciinema.org/a/555768.js" async></script>
+<a href="https://asciinema.org/a/555768" target="_blank"><img src="https://asciinema.org/a/555768.svg" /></a>
 
 # rec to install scripts and use brain-gcd
-<script id="asciicast-556024" src="https://asciinema.org/a/556024.js" async></script>
+<a href="https://asciinema.org/a/556024" target="_blank"><img src="https://asciinema.org/a/556024.svg" /></a>
 
 # rec to install scripts and use brain-progression
-<script id="asciicast-556128" src="https://asciinema.org/a/556128.js" async></script>
+<a href="https://asciinema.org/a/556128" target="_blank"><img src="https://asciinema.org/a/556128.svg" /></a>
 
 # rec to install scripts and use brain-prime
-<script id="asciicast-n6jKgWCfVMymqtf7TEh0agSXz" src="https://asciinema.org/a/n6jKgWCfVMymqtf7TEh0agSXz.js" async></script>
+<a href="https://asciinema.org/a/n6jKgWCfVMymqtf7TEh0agSXz" target="_blank"><img src="https://asciinema.org/a/n6jKgWCfVMymqtf7TEh0agSXz.svg" /></a>
