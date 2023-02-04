@@ -4,7 +4,6 @@ from operator import add, sub, mul
 
 
 def br_calc():
-    print('What is the result of the expression?')
     a = randint(1, 100)
     b = randint(1, 100)
     get_operator = {'+': add, '-': sub, '*': mul}.get

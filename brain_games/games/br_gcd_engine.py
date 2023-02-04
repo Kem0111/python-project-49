@@ -4,7 +4,6 @@ import math
 
 
 def br_gcd():
-    print('Find the greatest common divisor of given numbers.')
     first_number = randint(1, 100)
     second_number = randint(1, 100)
     max_common_divider = math.gcd(first_number, second_number)

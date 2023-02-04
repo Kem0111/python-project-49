@@ -14,7 +14,6 @@ def is_br_prime(number):
 
 
 def br_prime():
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     number = randint(1, 100)
     print(f'Question: {number}')
     answer = prompt.string('Your answer: ')

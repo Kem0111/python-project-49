@@ -3,7 +3,6 @@ import prompt
 
 
 def br_even():
-    print('Answer "yes" if the number is even, otherwise answer "no".')
     random_number = randint(1, 100)
     print(f'Question: {random_number}')
     answer = prompt.string('Your answer: ')
