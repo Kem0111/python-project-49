@@ -12,7 +12,7 @@ Brain-progression  - arithmetic progression test
 Brine-prime - prime numbers test.
 
 
-To install brain-games enter the command:
+#### **To install brain-games enter the command:**
 
 python3 -m pip install --user git+https://github.com/Kem0111/python-project-49.git
 
