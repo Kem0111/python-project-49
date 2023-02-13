@@ -4,9 +4,9 @@ from brain_games.games.br_even_engine import\
     br_even, rules_br_even, get_true_answer_br_even
 
 
-def main():
+def main_br_even():
     questions(br_even, rules_br_even, get_true_answer_br_even)
 
 
 if __name__ == '__main__':
-    main()
+    main_br_even()

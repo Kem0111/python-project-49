@@ -5,7 +5,7 @@ from brain_games.games.brain_progression_engine import br_progression,\
     get_true_answer_br_progression
 
 
-def main():
+def main_br_progression():
     questions(
         br_progression, rules_br_progression,
         get_true_answer_br_progression
@@ -13,4 +13,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    main_br_progression()
