@@ -17,7 +17,7 @@ def questions(func, rules, true_answer):
             a += 1
         else:
             print(is_answer_true)
-            print(f"Let's try again {name}!")
+            print(f"Let's try again, {name}!")
             break 
     if a == 3:
         print(f'Congratulations, {name}!')
