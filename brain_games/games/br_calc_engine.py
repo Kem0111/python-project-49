@@ -10,7 +10,7 @@ def br_calc():
     return expression
 
 
-def true_answer(integer, answer):
+def get_true_answer_br_calc(integer, answer):
     get_operator = {'+': add, '-': sub, '*': mul}.get
     integer = integer.split(' ')
     operator = get_operator(integer[1])
@@ -21,5 +21,5 @@ def true_answer(integer, answer):
         return f"'{answer}' is wrong answer ;(. Correct answer was '{result}'."
 
 
-def rules():
+def rules_br_calc():
     return 'What is the result of the expression?'

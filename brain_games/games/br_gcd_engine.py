@@ -8,11 +8,11 @@ def br_gcd():
     return f'{first_number} {second_number}'
 
 
-def rules():
+def rules_br_gcd():
     return 'Find the greatest common divisor of given numbers.'
 
 
-def true_answer(integer, answer):
+def get_true_answer_br_gcd(integer, answer):
     integer = integer.split(' ')
     max_common_divider = math.gcd(int(integer[0]), int(integer[1]))
     if answer == str(max_common_divider):

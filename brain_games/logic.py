@@ -18,6 +18,6 @@ def questions(func, rules, true_answer):
         else:
             print(is_answer_true)
             print(f"Let's try again, {name}!")
-            break 
+            break
     if a == 3:
         print(f'Congratulations, {name}!')

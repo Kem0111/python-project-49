@@ -6,11 +6,11 @@ def br_even():
     return random_number
 
 
-def rules():
+def rules_br_even():
     return 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def true_answer(random_numbers, answer):
+def get_true_answer_br_even(random_numbers, answer):
     random_number = random_numbers
     if random_number % 2 == 0 and answer == 'yes':
         return True

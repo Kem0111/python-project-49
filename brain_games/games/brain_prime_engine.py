@@ -17,7 +17,7 @@ def br_prime():
     return number
 
 
-def true_answer(integer, answer):
+def get_true_answer_br_prime(integer, answer):
     num = is_br_prime(integer)
     if num == 0 and answer == 'yes' or \
        num != 0 and answer == 'no':
@@ -28,5 +28,5 @@ def true_answer(integer, answer):
         return f"'{answer}' is wrong answer ;(. Correct answer was 'no'."
 
 
-def rules():
+def rules_br_prime():
     return 'Answer "yes" if given number is prime. Otherwise answer "no".'

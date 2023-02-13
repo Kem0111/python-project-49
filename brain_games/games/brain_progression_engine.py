@@ -13,12 +13,12 @@ def br_progression():
     return string_progression
 
 
-def true_answer(integer, answer):
+def get_true_answer_br_progression(integer, answer):
     integer = integer.split(' ')
     num = 0
     for i in range(len(integer)):
         if integer[i] == '..':
-            num += (int(integer[i-1])+int(integer[i+1]))//2
+            num += (int(integer[i-1]) + int(integer[i+1])) // 2
     if answer == str(num):
         return True
     else:
@@ -26,5 +26,5 @@ def true_answer(integer, answer):
 Correct answer was '{num}'."
 
 
-def rules():
+def rules_br_progression():
     return 'What number is missing in the progression?'
