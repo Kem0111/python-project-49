@@ -18,7 +18,7 @@ def get_true_answer_br_progression(integer, answer):
     num = 0
     for i in range(len(integer)):
         if integer[i] == '..':
-            num += (int(integer[i-1]) + int(integer[i+1])) // 2
+            num += (int(integer[i - 1]) + int(integer[i + 1])) // 2
     if answer == str(num):
         return True
     else:
