@@ -1,20 +1,22 @@
 from random import randint
-import prompt
 
 
 def br_even():
     random_number = randint(1, 100)
-    print(f'Question: {random_number}')
-    answer = prompt.string('Your answer: ')
+    return random_number
+
+
+def rules():
+    return 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
+def true_answer(random_numbers, answer):
+    random_number = random_numbers
     if random_number % 2 == 0 and answer == 'yes':
-        print('Correct!')
         return True
     elif random_number % 2 != 0 and answer == 'no':
-        print('Correct!')
         return True
     elif random_number % 2 == 0 and answer != 'yes':
-        print(f"'{answer}' is wrong answer ;(. Correct answer was 'yes'.")
-        return False
+        return f"'{answer}' is wrong answer ;(. Correct answer was 'yes'."
     elif random_number % 2 != 0 and answer != 'no':
-        print(f"'{answer}' is wrong answer ;(. Correct answer was 'no'.")
-        return False
+        return f"'{answer}' is wrong answer ;(. Correct answer was 'no'."

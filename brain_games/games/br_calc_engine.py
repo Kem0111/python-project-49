@@ -1,4 +1,3 @@
-import prompt
 from random import randint, choice
 from operator import add, sub, mul
 
@@ -6,19 +5,21 @@ from operator import add, sub, mul
 def br_calc():
     a = randint(1, 100)
     b = randint(1, 100)
-    get_operator = {'+': add, '-': sub, '*': mul}.get
     operator = choice(('+', '-', '*'))
-    result = get_operator(operator)
-    expression = [a, operator, b]
-    string = ''
-    integer = result(a, b)
-    for i in expression:
-        string += str(i) + ' '
-    print(f'Question: {string}')
-    answer = prompt.string('Your answer: ')
-    if answer == str(integer):
-        print('Correct!')
+    expression = f'{a} {operator} {b}'
+    return expression
+
+
+def true_answer(integer, answer):
+    get_operator = {'+': add, '-': sub, '*': mul}.get
+    integer = integer.split(' ')
+    operator = get_operator(integer[1])
+    result = operator(int(integer[0]), int(integer[2]))
+    if answer == str(result):
         return True
     else:
-        print(f"'{answer}' is wrong answer ;(. Correct answer was '{integer}'.")
-        return False
+        return f"'{answer}' is wrong answer ;(. Correct answer was '{result}'."
+
+
+def rules():
+    return 'What is the result of the expression?'

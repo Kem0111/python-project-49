@@ -1,4 +1,3 @@
-import prompt
 from random import randint
 
 
@@ -15,16 +14,19 @@ def is_br_prime(number):
 
 def br_prime():
     number = randint(1, 100)
-    print(f'Question: {number}')
-    answer = prompt.string('Your answer: ')
-    num = is_br_prime(number)
+    return number
+
+
+def true_answer(integer, answer):
+    num = is_br_prime(integer)
     if num == 0 and answer == 'yes' or \
        num != 0 and answer == 'no':
-        print('Correct!')
         return True
     elif num == 0 and answer != 'yes':
-        print(f"'{answer}' is wrong answer ;(. Correct answer was 'yes'.")
-        return False
+        return f"'{answer}' is wrong answer ;(. Correct answer was 'yes'."
     else:
-        print(f"'{answer}' is wrong answer ;(. Correct answer was 'no'.")
-        return False
+        return f"'{answer}' is wrong answer ;(. Correct answer was 'no'."
+
+
+def rules():
+    return 'Answer "yes" if given number is prime. Otherwise answer "no".'
