@@ -13,17 +13,13 @@ def br_progression():
     return string_progression
 
 
-def get_true_answer_br_progression(integer, answer):
+def get_true_answer_br_progression(integer):
     integer = integer.split(' ')
     num = 0
     for i in range(len(integer)):
         if integer[i] == '..':
             num += (int(integer[i - 1]) + int(integer[i + 1])) // 2
-    if answer == str(num):
-        return True
-    else:
-        return f"'{answer}' is wrong answer ;(. \
-Correct answer was '{num}'."
+    return num
 
 
 def rules_br_progression():

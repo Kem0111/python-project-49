@@ -12,11 +12,7 @@ def rules_br_gcd():
     return 'Find the greatest common divisor of given numbers.'
 
 
-def get_true_answer_br_gcd(integer, answer):
+def get_true_answer_br_gcd(integer):
     integer = integer.split(' ')
     max_common_divider = math.gcd(int(integer[0]), int(integer[1]))
-    if answer == str(max_common_divider):
-        return True
-    else:
-        return f"'{answer}' is wrong answer ;(.\
-Correct answer was '{str(max_common_divider)}'."
+    return max_common_divider

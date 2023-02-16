@@ -10,13 +10,9 @@ def rules_br_even():
     return 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def get_true_answer_br_even(random_numbers, answer):
+def get_true_answer_br_even(random_numbers):
     random_number = random_numbers
-    if random_number % 2 == 0 and answer == 'yes':
-        return True
-    elif random_number % 2 != 0 and answer == 'no':
-        return True
-    elif random_number % 2 == 0 and answer != 'yes':
-        return f"'{answer}' is wrong answer ;(. Correct answer was 'yes'."
-    elif random_number % 2 != 0 and answer != 'no':
-        return f"'{answer}' is wrong answer ;(. Correct answer was 'no'."
+    if random_number % 2 == 0:
+        return 'yes'
+    else:
+        return 'no'

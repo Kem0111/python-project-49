@@ -17,15 +17,12 @@ def br_prime():
     return number
 
 
-def get_true_answer_br_prime(integer, answer):
+def get_true_answer_br_prime(integer):
     num = is_br_prime(integer)
-    if num == 0 and answer == 'yes' or \
-       num != 0 and answer == 'no':
-        return True
-    elif num == 0 and answer != 'yes':
-        return f"'{answer}' is wrong answer ;(. Correct answer was 'yes'."
+    if num == 0:
+        return 'yes'
     else:
-        return f"'{answer}' is wrong answer ;(. Correct answer was 'no'."
+        return 'no'
 
 
 def rules_br_prime():
