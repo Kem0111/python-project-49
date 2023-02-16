@@ -19,7 +19,7 @@ def questions(func, rules, true_answer):
             print(
                 f"""'{answer}' is wrong answer ;(.
                 Correct answerwas '{str(is_answer_true)}'."""
-                )
+            )
             print(f"Let's try again, {name}!")
             break
     if a == 3:
