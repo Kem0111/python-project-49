@@ -1,15 +1,11 @@
 #!/usr/bin/env python3
-from brain_games.logic import questions
-from brain_games.games.brain_progression_engine import br_progression,\
-    rules_br_progression,\
-    get_true_answer_br_progression
+from brain_games.engine_of_games import general_engine
+from brain_games.games.implementation_brain_progression import br_progression,\
+    rules_br_progression
 
 
 def main():
-    questions(
-        br_progression, rules_br_progression,
-        get_true_answer_br_progression
-    )
+    general_engine(br_progression, rules_br_progression)
 
 
 if __name__ == '__main__':

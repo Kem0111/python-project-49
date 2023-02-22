@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-from brain_games.logic import questions
-from brain_games.games.br_gcd_engine import br_gcd,\
-    rules_br_gcd, get_true_answer_br_gcd
+from brain_games.engine_of_games import general_engine
+from brain_games.games.implementation_br_gcd import br_gcd,\
+    rules_br_gcd
 
 
 def main():
-    questions(br_gcd, rules_br_gcd, get_true_answer_br_gcd)
+    general_engine(br_gcd, rules_br_gcd)
 
 
 if __name__ == '__main__':

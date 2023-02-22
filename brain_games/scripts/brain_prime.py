@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-from brain_games.games.brain_prime_engine import br_prime,\
-    rules_br_prime, get_true_answer_br_prime
-from brain_games.logic import questions
+from brain_games.games.implementation_brain_prime import br_prime,\
+    rules_br_prime
+from brain_games.engine_of_games import general_engine
 
 
 def main():
-    questions(br_prime, rules_br_prime, get_true_answer_br_prime)
+    general_engine(br_prime, rules_br_prime)
 
 
 if __name__ == '__main__':
