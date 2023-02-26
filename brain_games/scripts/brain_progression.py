@@ -7,7 +7,7 @@ def main():
     general_engine(
         implementation_brain_progression.br_progression,
         implementation_brain_progression.rules_br_progression
-        )
+    )
 
 
 if __name__ == '__main__':
