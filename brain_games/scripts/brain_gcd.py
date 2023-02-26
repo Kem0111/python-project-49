@@ -7,7 +7,7 @@ def main():
     general_engine(
         implementation_br_gcd.br_gcd,
         implementation_br_gcd.rules_br_gcd
-        )
+    )
 
 
 if __name__ == '__main__':

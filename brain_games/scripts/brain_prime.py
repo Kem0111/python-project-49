@@ -7,7 +7,7 @@ def main():
     general_engine(
         implementation_brain_prime.br_prime,
         implementation_brain_prime.rules_br_prime
-        )
+    )
 
 
 if __name__ == '__main__':

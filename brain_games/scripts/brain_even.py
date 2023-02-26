@@ -7,7 +7,7 @@ def main():
     general_engine(
         implementation_br_even.br_even,
         implementation_br_even.rules_br_even
-        )
+    )
 
 
 if __name__ == '__main__':

@@ -7,7 +7,7 @@ def main():
     general_engine(
         implementation_br_calc.br_calc,
         implementation_br_calc.rules_br_calc
-        )
+    )
 
 
 if __name__ == '__main__':
