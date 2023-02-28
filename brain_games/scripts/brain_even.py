@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
-from brain_games.games import implementation_br_even
-from brain_games.engine_of_games import general_engine
+from brain_games.games import even
+from brain_games.engine import run_game
 
 
 def main():
-    general_engine(
-        implementation_br_even.br_even,
-        implementation_br_even.rules_br_even
-    )
+    run_game(even)
 
 
 if __name__ == '__main__':
