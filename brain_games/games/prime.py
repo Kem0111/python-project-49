@@ -1,11 +1,14 @@
-from random import randint
+from brain_games.games.even import get_random_number
+
+
+NUMBER = (1, 100)
 
 
 def get_game_round_data():
-    NUMBER = randint(1, 100)
-    if is_prime(NUMBER):
-        return NUMBER, 'yes'
-    return NUMBER, 'no'
+    number = get_random_number(NUMBER)
+    if is_prime(number):
+        return number, 'yes'
+    return number, 'no'
 
 
 def is_prime(number):

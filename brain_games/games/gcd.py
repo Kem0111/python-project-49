@@ -1,12 +1,16 @@
-from random import randint
 import math
+from brain_games.games.even import get_random_number
+
+
+FIRST_NUMBER = (1, 100)
+SECOND_NUMBER = (1, 100)
 
 
 def get_game_round_data():
-    FIRST_NUMBER = randint(1, 100)
-    SECOND_NUMBER = randint(1, 100)
-    max_common_divider = math.gcd(FIRST_NUMBER, SECOND_NUMBER)
-    return f'{FIRST_NUMBER} {SECOND_NUMBER}', max_common_divider
+    first_num = get_random_number(FIRST_NUMBER)
+    second_num = get_random_number(SECOND_NUMBER)
+    max_common_divider = math.gcd(first_num, second_num)
+    return f'{first_num} {second_num}', max_common_divider
 
 
 def RULSE():

@@ -1,12 +1,14 @@
 import prompt
 
 
+NUM_ROUNDS = 3
+
+
 def run_game(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.RULSE())
-    NUM_ROUNDS = 3
     points = 0
     for _ in range(NUM_ROUNDS):
         question, correct_answer = game.get_game_round_data()
