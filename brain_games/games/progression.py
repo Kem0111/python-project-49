@@ -12,7 +12,7 @@ def get_game_round_data():
         FINIT_ARTITHMETIC_PROGRESSION,
         COMMON_DIFF
     )
-    index = get_random_number((0, len(progression)-1))
+    index = get_random_number((0, len(progression) - 1))
     number = progression[index]
     progression[index] = '..'
     string_progression = string_representation(progression)
