@@ -14,20 +14,20 @@ Brine-prime - prime numbers test.
 
 ### **To install brain-games enter the command:**
 
-python3 -m pip install --user git+https://github.com/Kem0111/python-project-49.git
+```python3 -m pip install --user git+https://github.com/Kem0111/python-project-49.git```
 
  
 ## Rec to install scripts and use brain-even
-<a href="https://asciinema.org/a/555517" target="_blank"><img src="https://asciinema.org/a/555517.svg" /></a>
+```<a href="https://asciinema.org/a/555517" target="_blank"><img src="https://asciinema.org/a/555517.svg" /></a>```
 
 ## Rec to install scripts and use brain-calc
-<a href="https://asciinema.org/a/555768" target="_blank"><img src="https://asciinema.org/a/555768.svg" /></a>
+```<a href="https://asciinema.org/a/555768" target="_blank"><img src="https://asciinema.org/a/555768.svg" /></a>```
 
 ## Rec to install scripts and use brain-gcd
-<a href="https://asciinema.org/a/556024" target="_blank"><img src="https://asciinema.org/a/556024.svg" /></a>
+```<a href="https://asciinema.org/a/556024" target="_blank"><img src="https://asciinema.org/a/556024.svg" /></a>```
 
 ## Rec to install scripts and use brain-progression
-<a href="https://asciinema.org/a/556128" target="_blank"><img src="https://asciinema.org/a/556128.svg" /></a>
+```<a href="https://asciinema.org/a/556128" target="_blank"><img src="https://asciinema.org/a/556128.svg" /></a>```
 
 ## Rec to install scripts and use brain-prime
-<a href="https://asciinema.org/a/n6jKgWCfVMymqtf7TEh0agSXz" target="_blank"><img src="https://asciinema.org/a/n6jKgWCfVMymqtf7TEh0agSXz.svg" /></a>
+```<a href="https://asciinema.org/a/n6jKgWCfVMymqtf7TEh0agSXz" target="_blank"><img src="https://asciinema.org/a/n6jKgWCfVMymqtf7TEh0agSXz.svg" /></a>```

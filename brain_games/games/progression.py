@@ -1,34 +1,37 @@
-from brain_games.games.even import get_random_number
+from brain_games.get_random_number import get_random_number
 
 
-INITIAL_TERM = (1, 30)
-FINIT_ARTITHMETIC_PROGRESSION = (70, 100)
-COMMON_DIFF = (2, 10)
+INITIAL_TERM_INTERVAL = (1, 30)
+FINIT_ARITHMETIC_PROGRESSION_INTERVAL = (70, 100)
+COMMON_DIFF_INTERVAL = (2, 10)
 
 
 def get_game_round_data():
-    progression = arithmetic_progression(
-        INITIAL_TERM,
-        FINIT_ARTITHMETIC_PROGRESSION,
-        COMMON_DIFF
+    initial_term = get_random_number(INITIAL_TERM_INTERVAL)
+    finite_arithmetic_pr = get_random_number(
+        FINIT_ARITHMETIC_PROGRESSION_INTERVAL
+    )
+    common_diff = get_random_number(COMMON_DIFF_INTERVAL)
+    progression = generate_arithmetic_progression(
+        initial_term,
+        finite_arithmetic_pr,
+        common_diff
     )
     index = get_random_number((0, len(progression) - 1))
     number = progression[index]
-    progression[index] = '..'
-    string_progression = string_representation(progression)
+    string_progression = stringify(progression, index)
     return string_progression, number
 
 
-def string_representation(progression):
+def stringify(progression, index):
+    progression[index] = '..'
     return ' '.join([str(i) for i in progression])
 
 
-def arithmetic_progression(start, end, delimiter):
-    a = get_random_number(start)
-    m = get_random_number(end)
-    d = get_random_number(delimiter)
-    return list(range(a, m, d)[:10])
+def generate_arithmetic_progression(start, end, delimiter):
+    return list(range(
+        start, end, delimiter)[:10]
+    )
 
 
-def RULSE():
-    return 'What number is missing in the progression?'
+RULSE = 'What number is missing in the progression?'
