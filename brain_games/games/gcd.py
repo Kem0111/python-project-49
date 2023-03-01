@@ -1,5 +1,5 @@
 import math
-from brain_games.get_random_number import get_random_number
+from brain_games.random_number import get_random_number
 
 
 FIRST_NUMBER_INTERVAL = (1, 100)

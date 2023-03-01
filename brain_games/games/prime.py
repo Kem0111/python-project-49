@@ -1,4 +1,4 @@
-from brain_games.get_random_number import get_random_number
+from brain_games.random_number import get_random_number
 
 
 NUMBER_INTERVAL = (1, 100)

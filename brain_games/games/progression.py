@@ -1,4 +1,4 @@
-from brain_games.get_random_number import get_random_number
+from brain_games.random_number import get_random_number
 
 
 INITIAL_TERM_INTERVAL = (1, 30)
