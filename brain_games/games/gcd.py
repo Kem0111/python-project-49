@@ -13,4 +13,4 @@ def get_game_round_data():
     return f'{first_num} {second_num}', max_common_divider
 
 
-RULSE = 'Find the greatest common divisor of given numbers.'
+RULES = 'Find the greatest common divisor of given numbers.'

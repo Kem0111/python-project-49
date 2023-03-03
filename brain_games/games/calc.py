@@ -23,4 +23,4 @@ def get_result(first_num, second_num, operator, map):
     return result
 
 
-RULSE = 'What is the result of the expression?'
+RULES = 'What is the result of the expression?'

@@ -14,4 +14,4 @@ def is_even(integer):
     return integer % 2 == 0
 
 
-RULSE = 'Answer "yes" if the number is even, otherwise answer "no".'
+RULES = 'Answer "yes" if the number is even, otherwise answer "no".'
