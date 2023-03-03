@@ -30,7 +30,8 @@ def stringify(progression, hidden_term_index):
     return ' '.join(str(i) for i in progression)
 
 
-def generate_arithmetic_progression(initial_term, final_term, common_diff, progression_length):
+def generate_arithmetic_progression(initial_term, final_term,
+                                    common_diff, progression_length):
     return list(range(
         initial_term, final_term, common_diff)[:progression_length]
     )
